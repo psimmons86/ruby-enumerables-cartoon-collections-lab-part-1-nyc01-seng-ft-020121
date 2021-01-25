@@ -9,10 +9,9 @@ end
 
 
 def list_dwarves(array)
-  array.each_with_index do |list|
+  array.each_with_index[1,2,3,4,5,6,7] do |list|
     puts list
   end
-  list_dwarves
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
