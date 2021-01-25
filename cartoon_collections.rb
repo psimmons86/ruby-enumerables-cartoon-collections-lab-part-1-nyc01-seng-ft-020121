@@ -9,13 +9,11 @@ end
 
 
 def list_dwarves(array)
+  array.each do |dwarf|
+    puts "Hello #{dwarf}!"
+  end
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
 end
 
-def happy_birthday(birthday_kids)
-  birthday_kids.each do |kids_name, age|
-    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-  end
-end
