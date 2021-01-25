@@ -10,7 +10,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |list|
-    puts list
+    puts array"#{index}"
   end
   # Use `each_with_index` to enumerate over the provided array
   #
